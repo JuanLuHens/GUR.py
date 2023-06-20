@@ -15,11 +15,11 @@ Before using the application, ensure that the following prerequisites are met:
 ## Usage
 
 Open a terminal or command prompt.
-        ```
-        git clone https://github.com/JuanLuHens/GUR.py.git
-        cd GUR.py
-        python GUR.py -h /--help
-        ```
+```
+git clone https://github.com/JuanLuHens/GUR.py.git
+cd GUR.py
+python GUR.py -h /--help
+```
 
 ## Examples
 Here are some examples of how to use the application:
