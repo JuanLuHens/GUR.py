@@ -23,10 +23,18 @@ python GUR.py -h /--help
 
 ## Examples
 Here are some examples of how to use the application:
-        ```
-        TO DO
-        ```
-
+```
+python GUR.py -u domainuser -p pwduser -d contoso.com -dc 10.10.1.1 -ns 10.10.1.1
+```
+### Output
+```
+Rangos unicos:
+10.1.15.0/24
+10.1.89.0/24
+10.10.15.0/24
+10.10.89.0/24
+Esta informacion queda almacenada en el fichero rangosunicos.txt
+```
 ## Notes
 - This application is designed for informational and analysis purposes only. Ensure that you have proper authorization and adhere to legal and ethical guidelines when using this tool.
 - The application may require administrative privileges or appropriate access rights to retrieve the network information.
