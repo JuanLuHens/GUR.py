@@ -30,9 +30,11 @@ def obtener_conn(servidor,user,password,domain):
     return conn
 
 def obtener_equipos(conn,domain):
-    dc0 = domain.split('.')[0]
-    dc1 = domain.split('.')[1]
-    base = f'dc={dc0},dc={dc1}'
+    dominio=domain.split('.')
+    base=''
+    for don in dominio:
+        base += f',dc={don}'
+    base=base[1:]
     conn.search(
     search_base=base,
     search_filter='(objectClass=computer)',
